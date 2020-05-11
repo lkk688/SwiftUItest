@@ -213,8 +213,8 @@ class VisionProcessingCoordinator: CameraCoordinator {
         updateLayerGeometry()
         
         //switch coreml detection or face detection here
-        //setupVision()
-        prepareFaceDetectionRequest()
+        setupVision()
+        //prepareFaceDetectionRequest()
         
         // start the capture
         startCaptureSession()
